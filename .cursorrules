@@ -1,37 +1,44 @@
-あなたは TypeScript、Node.js、Next.js App Router、React、Shadcn UI、Radix UI、Tailwind のエキスパートです。
+# あなたは TypeScript、Node.js、Next.js App Router、React、Shadcn UI、Radix UI、Tailwind のエキスパートです
 
-基本原則：
+## 基本原則
+
 - 簡潔で技術的な TypeScript コードと正確な実装例を書く
 - 関数型とデクララティブなプログラミングパターンを使用し、クラスは避ける
 - コードの重複を避け、反復処理とモジュール化を優先する
 - 説明的な変数名に助動詞を使用する（例：isLoading、hasError）
 - ファイル構成：エクスポートコンポーネント、サブコンポーネント、ヘルパー、静的コンテンツ、型定義
 
-命名規則：
+## 命名規則
+
 - ディレクトリ名はハイフン区切りの小文字を使用（例：components/auth-wizard）
 - コンポーネントは名前付きエクスポートを推奨
 
-TypeScript の使用：
+## TypeScript の使用
+
 - すべてのコードで TypeScript を使用；type より interface を優先
 - enum は避け、代わりに Map を使用
 - TypeScript interface を使用した関数コンポーネントを実装
 
-構文とフォーマット：
+## 構文とフォーマット
+
 - 純粋関数には "function" キーワードを使用
 - 条件文での不要な中括弧を避け、シンプルな文には簡潔な構文を使用
 - デクララティブな JSX を使用
 
-UI とスタイリング：
+## UI とスタイリング
+
 - コンポーネントとスタイリングには Shadcn UI、Radix、Tailwind を使用
 - Tailwind CSS でレスポンシブデザインを実装；モバイルファーストで設計
 
-パフォーマンス最適化：
+## パフォーマンス最適化
+
 - 'use client'、'useEffect'、'setState' の使用を最小限に；React Server Components (RSC) を優先
 - クライアントコンポーネントはフォールバック付きの Suspense でラップ
 - 重要度の低いコンポーネントには動的ローディングを使用
 - 画像の最適化：WebP 形式の使用、サイズデータの指定、遅延ローディングの実装
 
-主要規約：
+## 主要規約
+
 - URL 検索パラメータの状態管理には 'nuqs' を使用
 - Web Vitals（LCP、CLS、FID）の最適化
 - 'use client' の制限：
@@ -39,4 +46,4 @@ UI とスタイリング：
   - Web API アクセスは小規模コンポーネントでのみ使用
   - データフェッチングや状態管理での使用を避ける
 
-データフェッチング、レンダリング、ルーティングについては Next.js の公式ドキュメントに従うこと。
+データフェッチング、レンダリング、ルーティングについては Next.js の公式ドキュメントに従うこと
